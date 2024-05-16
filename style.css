@@ -1,3 +1,22 @@
+/*
+css property တွေအပြောင်းအလဲလုပ်တဲ့အခါ 
+css transtion တွေသုံးပြီးတော့ ဘယ်လိုပုံစံနဲ့ပြောင်းမယ်, ဘယ်လောက်ကြာရင်ပြောင်းမယ်, ပြောင်းလဲချိန်ဘယ်လောက်အချိန်ယူမယ် 
+စသည်ဖြင့် သတ်မှတ်ပေးလို့ရတယ်။
+
+အသုံးများတဲ့ transition တွေက
+transition-property,  transition-duration, transition-timing-function, transition-delay တို့ဖြစ်မယ်။
+
+- transition-property ကိုသုံးပြီး width ပြောင်းမှာလား hight ပြောင်းမှာလား all လား သတ်မှတ်ပေးရမယ်။ များသောအားဖြင့်တော့ all ပဲသုံးရမယ်။
+- transition-duration ကိုသုံးပြီး ပြောင်းလဲချိန်ဘယ်လောက်ယူမလဲ သတ်မှတ်မယ်။
+- transition-timing-function ကိုသုံးပြီး ဘယ်လိုပုံစံနဲ့ပြောင်းမလဲ ဆိုတာသတ်မှတ်မယ်။
+- transition-delay ကိုသုံးပြီး ဘယ်လောက်ကြာရင် ပြောင်းမလဲ သတ်မှတ်ပေးမယ်။
+
+- လေးခုလုံးကို တစ်ခါတည်းပေါင်းရေးလို့လည်းရတယ်။ ဥပမာ- transition: all 3s ease 1s;
+ 
+}
+
+*/
+
 body{
     background-color: rgb(136, 136, 127);
 }
@@ -7,10 +26,17 @@ body{
 .transition{
     width: 200px;
     height: 30px;
+    opacity: 1;
     margin-top: 200px;
     margin-bottom: 20px;
     background-color: yellow;
+
+    
+    transition: all 3s ease 1s;
 }
 .increaseWidth{
     width: 500px;
+    height: 60px ;
+    background-color: rgba(56, 244, 56, 0.827);
+    opacity: 0.3;
 }
