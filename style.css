@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(136, 136, 127);
+}
+.container{
+    max-width: 1000px;
+}
+.transition{
+    width: 200px;
+    height: 30px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+.increaseWidth{
+    width: 500px;
+}
